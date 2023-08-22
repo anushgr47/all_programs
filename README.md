@@ -1,1 +1,1 @@
-# all_programs
+its a rock paper scissor game 
