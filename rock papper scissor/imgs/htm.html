@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		How to Append HTML Code to a Div using Javascript
+	</title>
+	<body>
+        
+    
+</head>
+
+<body>
+	<div id="add_to_me">
+		
+	</div>
+
+	<button onclick="addCode()">Add Stuff</button>
+	<script>
+		function addCode() {
+			document.getElementById("add_to_me").innerHTML +=
+			"<h3>This is the text which has been inserted by JS</h3>";
+		}
+	</script>
+</body>
+</html>

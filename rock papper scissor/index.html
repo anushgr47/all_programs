@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <style>
+    img {
+      width: 160px;
+      height: 160px;
+    }
+  </style>
+</head>
+<body>   
+    <style>
+        .heading {
+          position: relative;
+          top: auto;
+          left: auto;
+          font: 2em cursive;
+        }
+      </style>
+      <h1><p class="heading">Rock Paper Scissors</p></h1>
+  <img src="imgs\enin.png" alt="My Image" style="position:relative ; top: 50px; left: 0px; width: 280px; height: 260px">
+  <img src="imgs\rule.png" alt="My Image" style="position:relative ; top: 360px; left: -280px; width: 280px; height: 260px">
+  
+  <br><br>
+  <!--begin-->
+  <style>
+  .relative-text {
+    position: relative;
+    top: -350px;
+    left: 700px;
+    font: 2em cursive;
+  }
+</style>
+
+<h1><p class="relative-text">CHOOSE ONE</p></h1>
+    <!--Rock button-->
+  <style>
+    .btnRock {
+      position: relative;
+      top: -320px;
+      left: 550px;
+      height: 280px;
+      width: 280px ;
+    }
+  </style>
+  <button class="btnRock" id="btnRock" >
+      <img src="imgs\rock.jpg" alt="Button Image">
+  </button>
+   <!--paper button-->
+  <style>
+    .btnPaper {
+      position: relative;
+      top: -320px;
+      left: 550px;
+      height: 280px;
+      width: 280px ;
+    }
+  </style>
+  <button class="btnPaper" id="btnPaper">
+     <img src="imgs\paper.jpg" alt="Button Image" >
+  </button>
+   <!--scissors button-->
+  <style>
+    .btnScissors {
+      position: relative;
+      top: -320px;
+      left: 550px;
+      height: 280px;
+      width: 280px ;
+    }
+  </style>
+  <button class="btnScissors" id="btnScissors" >
+    <img src="imgs\scissor.png" alt="Button Image">
+  </button>
+   <!--reset button-->
+  <style>
+    .btnReset {
+      position: relative;
+      top: 90px;
+      left: -300px;
+    }
+  </style>
+  <button class="btnReset" id="btnReset">Reset</button>
+   <!--exit button-->
+  <style>
+    .btnExit {
+      position: relative;
+      top: 90px;
+      left: -300px;
+    }
+  </style>
+  <button class="btnExit" id="btnExit">Exit</button>
+
+  <style>
+    .txtWinner{
+        position: relative;
+        top: -200px;
+        left: 550px;
+    }
+  </style> 
+  <h1><p class="txtWinner" id="txtWinner"></p></h1>
+ 
+  <script src="index.js"></script>
+
+</body>
+</html>
